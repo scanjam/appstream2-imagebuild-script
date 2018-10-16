@@ -1,0 +1,9 @@
+<Configuration>
+  <Add OfficeClientEdition="32" >
+    <Product ID="ProjectProXVolume" PIDKEY="WGT24-HCNMF-FQ7XH-6M8K7-DRTW9">
+        <Language ID="en-us" />
+     </Product>
+   </Add>  
+  <Updates Enabled="FALSE" />
+  <Display Level="None" AcceptEULA="TRUE" />  
+</Configuration>

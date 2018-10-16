@@ -1,0 +1,9 @@
+<Configuration>
+  <Add OfficeClientEdition="32" >
+    <Product ID="VisioProXVolume" PIDKEY="69WXN-MBYV6-22PQG-3WGHK-RM6XC">
+        <Language ID="en-us" />
+     </Product>
+   </Add>
+  <Updates Enabled="FALSE" />
+  <Display Level="None" AcceptEULA="TRUE" />  
+</Configuration>
