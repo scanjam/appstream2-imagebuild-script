@@ -1,7 +1,7 @@
-#appstream2-imagebuild-script
+# appstream2-imagebuild-script
 A basic Powershell build script for AWS AppStream 2.0 Images using the AWS Powershell tools available in the AWS AppStream image(s)
 
-#requirements
+## requirements
 Its assumed you are running this as the Image Build Admin - and the primary writable location in the user profile is hardcoded as: 'C:\Users\ImageBuilderAdmin\My Files\Temporary Files\Build'
 
 S3 Read Only IAM user with access to the specific bucket.
@@ -23,7 +23,7 @@ Application installation files.
 Preferably all obtained via wget or online fetch for the latest version however the sceipt has some example references to standard installation things like AdobePro, WinZip, or Java. All these need to be scripted, added and copies of them stored in the Build\Ins folder (assuming you can't wget direct from internet)
 
 
-#how to use
+# How to use
 1) Loginto AppStream2 Build Instance<br>
 2) Copy powershell locally<br>
 3) Open ise.exe or cmd.exe <strong>as administrator</strong><br>
